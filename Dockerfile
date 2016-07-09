@@ -30,5 +30,6 @@ ADD tmux.conf /home/docker/.tmux.conf
 
 RUN chmod 755 /usr/bin/startup.sh
 
+
 # The argument is the user as set up above
 CMD ["/usr/bin/startup.sh", "docker"]
